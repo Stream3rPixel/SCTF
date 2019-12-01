@@ -1,0 +1,24 @@
+
+// Instalacion de Sistema de Citas Terapia Fisica
+
+1.- Instalar XAMPP WINDOWS-x64-7.3.11-0-VC15
+
+2.- Al terminar la instalacion iniciar los servicios de Apache y MySQL
+
+3.- Instalar el sistemas, Copiar la carpeta del sistema a la Dirección c:\xampp\htdocs\ de manera que el sistema quede c:\xampp\htdocs\SCTF
+
+4.- Para la instalación de la base de datos acceder desde el navegador predeterminado escribiendo 
+
+http://127.0.0.1/phpmyadmin/ o http://localhost/phpmyadmin/
+
+5.- Instalar la base de datos contenida en el archivo c:\xampp\htdocs\SCTF\schema.sql, puede ser desde PHPMyAdmin
+en el apartado inportar selecionamos el archivo y guardamos.
+
+6.- Puedes modificar el archivo de conexion a la base de datos en caso de ser necesario c:\xampp\htdocs\SCTF\core\controller\Database.php
+
+7.- Acceder al sistema desde el navedador usando la Dirección http://localhost/SCTF/
+
+8.- ingresar los Datos de acceso.
+
+Usuario: admin
+Password: ****
